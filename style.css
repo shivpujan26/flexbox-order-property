@@ -1,0 +1,38 @@
+.container{
+    height: 5rem;
+    background-color: bisque;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.box{
+    height: 50px;
+    width: 230px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.green{
+    background-color: green;
+    order: 1;
+}
+.yellow{
+    background-color: yellow;
+}
+.red{
+    background-color: red;
+}
+.blue{
+    background-color: blue;
+}
+.violet{
+    background-color: violet;
+}
+.orange{
+    background-color: orange;
+    order: 10;
+}
+.indigo{
+    background-color: indigo;
+}
